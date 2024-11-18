@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="leftside">
+            <h2 class="transparentcolornameme">Satyakam Tyagi</h2>
+            <p class="mail">satyakamtyagi8979@gmail.com<p>
+            <p>+91 7818875457</p>
+        </div>
+        <div class="rightside">
+            <h3 class="colorblinkheader">About Me</h3>
+            <h3 class="colorblinkheader">Skills</h3>
+            <h3 class="colorblinkheader">Projects</h3>
+            <h3 class="colorblinkheader">Recommendations</h3>
+        </div>
+    </div>
+    <div class="headerbelow">
+        <div class="addimageme">
+            <img src="IMAGE 1.jpg" class="sizeimageme">
+        </div>
+        <div class="introme">
+            <h2 class="hi">Hare Krishna, I'm Satyakam Tyagi !</h1> 
+           <p class="hibelow">I am a Full Stack Web Developer. Currently, I'm study at
+            Chandigarh University pursuing a Bachelor Of Degree in Information Technology. I have also done 
+            my 1 Year Diploma in Computer Applications. And, I also done my 3 months Internship in Hardware 
+            &amp; Troubleshooting.</p>
+        </div>
+    </div>
+    <div class="skillsbox">
+        <h1 class="skills">
+            Skills </h1>
+            <div class="skillsboxes">
+                <div class="box">
+                    <p>HTML<br>
+                        3 Years Experience</p>
+                </div>
+                <div class="box">
+                    <p>CSS<br>
+                        3 Years Experience</p>
+                </div>
+                <div class="box">
+                    <p>Javascript<br>
+                    3 Years Experience</p>
+                </div>
+                <div class="box">
+                    <p>Node.js<br>
+                    1 Years Experience</p>
+
+                </div>
+                <div class="box">
+                    <p>Express.js<br>
+                        1 Years Experience</p>
+                </div>
+            </div>
+    </div>
+    <div class="projects">
+        <h1 class="projectswrite">Projects</h1>
+        <div class="chatbot">
+            <h3 clas="chatbotwrite">Chatbot</h3>
+            <p class="chatbotpassage"><ul class="disc"><li>Developed a secure website integrated with chatbot for an
+                automobile client using HTML, CSS, Javascript and IBM Watson Assistant.
+          </li>  </ul></p>
+        </div>
+        <div class="sentiment">
+            <h3 class=sentimentwrite>Sentiment Analyzer</h3>
+            <p class="sentimentpassage"><ul class="disc"><li>Developed and Deployed a Sentiment Analyzer for the box reviews
+                section of an e-Commerce platform using IBM NLU.</li>
+            </ul></p>
+        </div>
+        <div class="fashion">
+            <h3 class="fashionwrite">Fashion Website</h3>
+            <p class="fashionpassage"><ul class="disc"><li>Create a styled multi-page website for a new player in 
+                the fashion industry and integrated it with a shopping cart, using stripe for payment
+                gateway.</li>
+            </ul></p>
+        </div>
+    </div>
+    <div id = "recommendations-container" class="recommendations">
+        <h1 class="recommendationwrite">
+            Recommendations
+        </h1>
+        <div class="threerecommendations">
+            <div class="firstrecommendation">
+                <p class="passagewrite">
+                   " Satyakam tyagi is a very quickly learner and quickly grasps key concepts of Web 
+                    Development. He got a great attitude &amp; He is an excellent team player. He has
+                    a curious mind and ask the right question. He takes initiative within a team and has
+                    potentials to lead the team."
+                </p>
+            </div>
+            <div class="secondrecommendation">
+                <p class="passagewrite">
+                    "Working with Satyakam has an awesome Experience. He is highly knowledgeable and 
+                    always goes the extra step to make sure everything is right. For any future projects
+                    that need her expertise I would definitely want to work with her again."
+                </p>
+            </div>
+            <div class="thirdrecommendation">
+                <p class="passagewrite">
+                   " I had work along with Satyakam during the initial phase of our venture which needed 
+                    Web development. He is a committed resource who has in depth knowledge about the 
+                    domain. He will be an asset for any organization!"
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="leave">
+        <h2 class="leaverecommendation">
+            Leave a Recommendation
+        </h2>
+        <textarea id="name-input" class="recommend-box" placeholder="Name (Optional)"></textarea>
+       
+        <textarea id="message-input" class="message-box" placeholder="Write your message here..."></textarea>
+        <br>
+        <div class="submit">
+            <div class="submitborder">
+        <button id="submit-button" class="submit-button">Submit</button>
+    </div>
+        </div>
+    </div>
+    <div id="thank-you-modal" class="modal">
+        <div class="modal-content">
+            <p>Thanks for leaving a recommendation.</p>
+            <button id="modal-ok-button">OK</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

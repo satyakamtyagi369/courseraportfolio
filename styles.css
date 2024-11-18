@@ -1,0 +1,227 @@
+.header{
+    height:7.5rem;
+    background-color:blueviolet;
+    display:flex;
+    color:whitesmoke;
+    padding-left: 3%;
+    padding-top:1%;
+}
+.rightside{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0; /* Stick to the right edge */
+    top: 0; /* Optional: Stick to the top edge */
+    gap: 1.3rem; /* Add spacing between items */
+    padding: 0.6rem; 
+    padding-right: 5%;
+    cursor: pointer;
+}
+.transparentcolornameme{
+    background:linear-gradient(90deg, orange,white, green 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text ;
+}
+.colorblinkheader:hover{
+    color:greenyellow;
+    text-decoration: underline;
+}
+.mail{
+    cursor: pointer;
+
+}
+.mail:hover{
+    color:blue;
+}
+.sizeimageme{
+    height: 29rem;
+    width:95%;
+    margin-right:20%;
+    
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgb(14, 176, 251);
+    padding-top: 0%;
+}
+.headerbelow{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.introme{
+    width:55%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.hi{
+    color: blue;
+    font-size: 2rem;
+}
+.hibelow{
+    color:grey;
+}
+.skillsbox{
+    padding-top: 1%;
+    padding-left: 2%;
+}
+.skills{
+    color:blue;
+}
+.skillsboxes{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.box{
+    height:10rem;
+    width:10rem;
+    border:solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:skyblue;
+    transition: all 0.5s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+    border-radius: 15%;
+}
+.box:hover{
+    height:15rem;
+    width:15rem;
+    cursor:pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 1.5);
+}
+.projectswrite{
+    color:blue;
+    font-weight: bolder;
+}
+.projects{
+    padding-top: 1%;
+    padding-left: 2%;
+}
+.disc{
+    list-style-type: disc;
+}
+.chatbot{
+    margin-left:5%;
+}
+.sentiment{
+    margin-left: 5%;
+}
+.fashion{
+    margin-left: 5%;
+}
+.recommendations{
+    padding-top: 1%;
+    padding-left: 2%;
+}
+.recommendationwrite{
+    color:blue;
+}
+.threerecommendations{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.firstrecommendation{
+   
+    height:10rem;
+    width:19rem;
+    border:solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+    transition: all 0.5s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+    border-radius: 10%;
+}
+.secondrecommendation{
+    height:10rem;
+    width:19rem;
+    border:solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+    transition: all 0.5s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+    border-radius: 10%;
+}
+.thirdrecommendation{
+    height:10rem;
+    width:19rem;
+    border:solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+    transition: all 0.5s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+    border-radius: 10%;
+}
+.passagewrite{
+    align-items: center;
+    justify-content: center;
+    padding:1.5rem;
+}
+.leave{
+    margin-left: 20%;
+    justify-content: center;
+    align-items: center;
+    padding:5rem;
+}
+.recommend-box{
+    height:1rem;
+    width:70%;
+}
+.message-box{
+    height:10rem;
+    width:70%;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25%;
+}
+.submit-button{
+    height:2rem;
+    width:8rem;
+    cursor: pointer;
+    color:blueviolet;
+    border:0.1rem solid blueviolet;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#modal-ok-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#modal-ok-button:hover {
+    background-color: #45a049;
+}
